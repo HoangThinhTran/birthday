@@ -189,7 +189,7 @@ function showEndMessage() {
         const message = document.getElementById('message');
         message.innerHTML = END_MESSAGE;
         message.style.display = 'block';
-        setTimeout(() => message.style.opacity = '1', 100);
+        setTimeout(() => message.style.opacity = '1', 1000);
     }, 500);
 }
 
