@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="background-music" autoplay loop>
+        <source src="fireworks.mp3" type="audio/mp3">
+    </audio>
+      
+    <canvas id="birthday"></canvas>
+
+    <div class="content-container">
+        <h1>Happy Birthday, 2 nha!</h1>
+        <p class="initial-message">Chúc 2 có một năm tuyệt vời tràn ngập tình yêu, niềm vui và những cuộc phiêu lưu bất
+            tận ♥♥♥ <br><br><strong>- Có nhạc nền nha -</strong></p>
+        <p></p>
+        <button onclick="showMessage()">Bấm ở đây nè ^^</button>
+        <div id="message">
+            <p></p>
+        </div>
+    </div>
+
+    <div class="slideshow-container" id="slideshow">
+        <img src="IMG_20160814_143458.jpg" alt="Birthday memory 1" class="slide">
+        <img src="BeautyPlus_20240211143006010_save.jpg" alt="Birthday memory 2" class="slide">
+        <img src="20210105_041125.jpg" alt="Birthday memory 3" class="slide">
+        <div class="slide-nav"></div>
+    </div>
+
+    <div id="hearts-container" class="hearts-container"></div>
+    <div id="lights-container" class="lights-container"></div>
+
+        <!-- Reload button -->
+        <button id="reload-button" onclick="reloadPage()">Xem lại</button>
+        
+    <script src="script.js"></script>
+</body>
+
+</html>
